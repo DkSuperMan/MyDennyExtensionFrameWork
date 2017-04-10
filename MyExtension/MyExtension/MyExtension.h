@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <MyExtension/MyColorExtension.h>
 //! Project version number for MyExtension.
 FOUNDATION_EXPORT double MyExtensionVersionNumber;
 

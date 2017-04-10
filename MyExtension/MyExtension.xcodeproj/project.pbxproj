@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B063AA2F1E9B6ED000CB49ED /* MyExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B063AA2D1E9B6ED000CB49ED /* MyExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B063AA371E9B798300CB49ED /* MyColorExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B063AA351E9B798300CB49ED /* MyColorExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B063AA381E9B798300CB49ED /* MyColorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B063AA361E9B798300CB49ED /* MyColorExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B063AA2A1E9B6ED000CB49ED /* MyExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B063AA2D1E9B6ED000CB49ED /* MyExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyExtension.h; sourceTree = "<group>"; };
 		B063AA2E1E9B6ED000CB49ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B063AA351E9B798300CB49ED /* MyColorExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyColorExtension.h; sourceTree = "<group>"; };
+		B063AA361E9B798300CB49ED /* MyColorExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyColorExtension.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				B063AA2D1E9B6ED000CB49ED /* MyExtension.h */,
 				B063AA2E1E9B6ED000CB49ED /* Info.plist */,
+				B063AA351E9B798300CB49ED /* MyColorExtension.h */,
+				B063AA361E9B798300CB49ED /* MyColorExtension.m */,
 			);
 			path = MyExtension;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B063AA371E9B798300CB49ED /* MyColorExtension.h in Headers */,
 				B063AA2F1E9B6ED000CB49ED /* MyExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B063AA381E9B798300CB49ED /* MyColorExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
