@@ -13,6 +13,7 @@
 + (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha
 {
     
+    
     //删除字符串中的空格
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     // String should be 6 or 8 characters
