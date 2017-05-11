@@ -14,6 +14,7 @@
 {
     //1
     //2
+    //3
     
     //删除字符串中的空格
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
